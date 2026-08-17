@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TheWholesaleAlly &mdash; Real allies.</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="nav" id="nav">
+  <a href="#top" class="nav-brand">
+    <img src="assets/img/logo_mark.png" alt="">
+    <span>@THE<strong>WHOLESALE</strong>ALLY</span>
+  </a>
+  <nav class="nav-links">
+    <a href="#mission">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#bundle">Buy Box Bundle</a>
+    <a href="#demos">Demos</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <svg class="doodle hero-doodle-1" viewBox="0 0 200 200"><path fill="none" stroke="#D8BE84" stroke-width="1.1" d="M20,100 C20,60 60,20 100,20 C140,20 180,60 180,100 C180,140 140,180 100,180 C60,180 20,140 20,100 Z"/><path fill="none" stroke="#D8BE84" stroke-width="1.1" d="M40,100 C40,72 68,44 100,44 C132,44 160,72 160,100 C160,128 132,156 100,156 C68,156 40,128 40,100 Z"/><circle fill="#A85630" cx="100" cy="20" r="2.6"/></svg>
+    <svg class="doodle hero-doodle-2" viewBox="0 0 220 220"><path fill="none" stroke="#C9C0A2" stroke-width="1" d="M10,210 L10,120 L70,90 L70,40 L150,10 L210,55 L210,150 L160,210 Z"/><path fill="none" stroke="#C9C0A2" stroke-width="1" d="M70,90 L130,120 L210,150"/><circle fill="#B8903F" cx="70" cy="90" r="2.2"/></svg>
+
+    <p class="eyebrow">Land wholesaling, without the bro-culture.</p>
+    <div class="hero-logo"><img src="assets/img/logo.png" alt="Wholesale Ally"></div>
+    <h1 class="hero-title">Real leads.<br>Real knowledge.<br><em>Real allies.</em></h1>
+    <p class="hero-sub">Everything I know about wholesaling vacant land, written down &mdash; from the free
+      starter guide to the full library. No gatekeeping, no hype, just what actually works.</p>
+    <a href="#courses" class="btn btn-gold">See the courses</a>
+  </section>
+
+  <section class="mission" id="mission">
+    <p class="section-eyebrow">Why I built this</p>
+    <blockquote class="mission-quote">
+      &ldquo;Wholesaling has a reputation problem, and most of it comes from people hoarding what they know.
+      Ready to disrupt the &ldquo;bro-culture&rdquo; of real estate wholesaling with something actually
+      sustainable: value and empathy. Moving away from the &ldquo;gatekeeper&rdquo; energy, The Wholesale Ally
+      exists to do the opposite &mdash; share the leads, share the lessons, and build something that outlasts
+      one deal. Everything here is exactly what I use myself, written the way I wish someone had written it
+      for me.&rdquo;
+    </blockquote>
+    <p class="mission-sign">&mdash; The Ally</p>
+  </section>
+
+  <section class="courses" id="courses">
+    <p class="section-eyebrow">The library</p>
+    <h2 class="section-title">Start free. Go as deep as you want.</h2>
+    <p class="section-sub">Four ways to learn, one course at a time, or everything at once.</p>
+
+    <div class="carousel-wrap">
+      <button class="car-arrow car-arrow-left" id="carLeft" aria-label="Previous course">&#8592;</button>
+      <div class="carousel" id="carousel">
+
+        <article class="course-card" data-course="wa101">
+          <div class="course-thumb"><img src="assets/img/cover_a.png" alt="Wholesale Ally 101 cover"></div>
+          <div class="course-badge badge-free">Start here &middot; free</div>
+          <h3 class="course-name">Wholesale Ally 101</h3>
+          <p class="course-tag">The free starter guide</p>
+          <p class="course-price">Free</p>
+        </article>
+
+        <article class="course-card" data-course="lcol">
+          <div class="course-thumb"><img src="assets/img/cover_b.png" alt="Let's Change Our Life cover"></div>
+          <h3 class="course-name">Let's Change Our Life</h3>
+          <p class="course-tag">The complete land wholesaling course</p>
+          <p class="course-price">$20</p>
+        </article>
+
+        <article class="course-card" data-course="nwmm">
+          <div class="course-thumb"><img src="assets/img/cover_d.png" alt="Now We're Making Money cover"></div>
+          <h3 class="course-name">Now We're Making Money</h3>
+          <p class="course-tag">The advanced land wholesaling course</p>
+          <p class="course-price">$55</p>
+        </article>
+
+        <article class="course-card" data-course="groundrunnin">
+          <div class="course-thumb"><img src="assets/img/cover_c.png" alt="Ground Runnin' cover"></div>
+          <h3 class="course-name">Ground Runnin'</h3>
+          <p class="course-tag">The complete wholesaler's resource kit</p>
+          <p class="course-price">$490</p>
+        </article>
+
+        <article class="course-card bundle-card" data-course="bundle" id="bundleCard">
+          <div class="bundle-ribbon">Everything, once</div>
+          <h3 class="course-name">Buy Box Bundle</h3>
+          <p class="course-tag">Access to Discord Community that includes all four courses, all contracts
+            (including the purchase sale and agreement), 10,000+ off market leads, 15 New Builders with a
+            new builder being added to the community every other week, exclusive programs created just for
+            your ease, and much more.</p>
+          <p class="course-price">$875</p>
+        </article>
+
+      </div>
+      <button class="car-arrow car-arrow-right" id="carRight" aria-label="Next course">&#8594;</button>
+    </div>
+    <div class="carousel-dots" id="carDots"></div>
+  </section>
+
+  <section class="bundle-banner" id="bundle">
+    <svg class="doodle bundle-doodle" viewBox="0 0 200 200"><path fill="none" stroke="#D8BE84" stroke-width="1" d="M20,100 C20,60 60,20 100,20 C140,20 180,60 180,100 C180,140 140,180 100,180 C60,180 20,140 20,100 Z"/><path fill="none" stroke="#D8BE84" stroke-width="1" d="M58,100 C58,84 78,66 100,66 C122,66 142,84 142,100 C142,116 122,134 100,134 C78,134 58,116 58,100 Z"/></svg>
+    <p class="section-eyebrow" style="color:var(--gold-soft)">For the go-getters</p>
+    <h2 class="bundle-title">Want the freedom to choose?</h2>
+    <p class="bundle-copy">You have the freedom to choose between courses, bundles, or purchasing just what
+      you need separately &mdash; contracts, Discord access, builders list, off-market leads only. Your
+      choice, but be cautious: any choice you choose will lead you to a deal.</p>
+    <button class="btn btn-cream" id="bundleCta">See what's included</button>
+  </section>
+
+  <section class="demos" id="demos">
+    <p class="section-eyebrow">See it in action</p>
+    <h2 class="section-title">Demos &amp; walkthroughs</h2>
+    <p class="section-sub">A few of the tools and templates included with your purchase &mdash; more added
+      as they're ready.</p>
+    <div class="demo-grid" id="demoGrid"></div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <img src="assets/img/logo_mark.png" alt="" class="footer-mark">
+  <p class="footer-handle">@THEWHOLESALEALLY</p>
+  <p class="footer-copy">No gatekeeping, just good land and good people.</p>
+</footer>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" id="modal">
+    <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<div class="bear-widget" id="bearWidget" aria-hidden="true">
+  <div class="bear-dream" id="bearDream"></div>
+  <div class="bear-scene" id="bearScene"></div>
+</div>
+
+<div class="ipod-widget" id="ipodWidget">
+  <div class="ipod-body">
+    <div class="ipod-screen">
+      <p class="ipod-now-playing">Now Playing</p>
+      <p class="ipod-track" id="ipodTrack">Add music to assets/audio</p>
+      <div class="ipod-eq" id="ipodEq"><span></span><span></span><span></span><span></span></div>
+    </div>
+    <div class="ipod-wheel" id="ipodWheel">
+      <button class="ipod-btn ipod-menu" id="ipodMenu">menu</button>
+      <button class="ipod-btn ipod-prev" id="ipodPrev" aria-label="Previous track">&#9664;&#9664;</button>
+      <button class="ipod-btn ipod-next" id="ipodNext" aria-label="Next track">&#9654;&#9654;</button>
+      <button class="ipod-center" id="ipodPlay" aria-label="Play or pause">&#9654;</button>
+    </div>
+  </div>
+</div>
+<audio id="audioEl" preload="none"></audio>
+
+<script src="app.js"></script>
+</body>
+</html>
